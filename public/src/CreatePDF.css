@@ -1,0 +1,45 @@
+*{
+
+    margin: auto;
+    max-width: 480px;
+    font-family: 'Times New Roman', Times, monospace;
+}
+/* Основные стили */
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 20px;
+    align-items: center; /* Вертикальное выравнивание по центру */
+    justify-items: center; /* Горизонтальное выравнивание по центру */
+}
+
+.input-field,
+.select-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+.Btn_buy{
+    justify-items:center;
+    margin-top:50px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #fedd2c;
+    width: 100%;
+    padding: 5%;
+}
+.Btn_buy:active{
+    border-radius: 10px;
+    border: 0px;
+    background-color: #b9a430;
+
+}
