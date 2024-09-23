@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import logo from "./img/out-t-bank1.jpg" // Импортируем изображение
+import logo from "./img/out-t-bank1.jpg";
 import "./TopBarLogo.css"
 
 export function TopBarLogo() {
